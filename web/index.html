@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaSante</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">  
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg " style="background-color:#1D2F4C ;">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Contactez-nous</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Qui sommes-nous?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Marques</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Conseils</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Mon compte</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar bg-light">
+        <div class="container">
+          <a class="navbar-brand"><img src="img/lasante.png" alt=""></a>
+          <form class="d-flex srch_bar" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><img src="img/icons/magnifying-glass.png" id="srch_button"></button>
+            <button type="button" class="btn btn-success panier"><span><img src="img/icons/shopping_cart_black_24dp.svg" id="shop_cart"></span>Mon Panier</button>
+          </form>
+        </div>
+      </nav>
+
+      <nav class="navbar bg-light justify-content-center">
+            <div class="container">
+                <nav class="nav third_navbar">
+                    <a class="nav-link active" aria-current="page" href="#">Médicaments</a>
+                    <a class="nav-link" href="#">Parapharmacie</a>
+                    <a class="nav-link" href="#">Bien-être<br>Nutrition</a>
+                    <a class="nav-link" href="#">Beauté<br>Soins</a>
+                    <a class="nav-link" href="#">Hygiène<br>Premiers soins</a>
+                    <a class="nav-link" href="#">Bébé<br>Maman</a>
+                    <a class="nav-link" href="#">Bio<br>Médecines naturelles</a>
+                    <a class="nav-link" href="#">Matériel Médical</a>
+                    <a class="nav-link" href="#">Vétérinaire</a>
+                    <a class="nav-link promo" href="#">Promotions</a>
+                </nav>
+            </div>  
+       </nav>
+        <nav class="navbar navbar-dark livraison" style="background-color: #00B482;">
+            <div class="container-fluid justify-content-center">
+            <a id="delivery"  href="#">
+                Livraison en 24/48h, offerte dès 59€ d'achat
+            </a>
+            </div>
+        </nav>
+
+      <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <a href="#"><img src="img/offres/offre 2_3.png" alt=""></a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#"><img src="img/offres/offre 1_3.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+            <h4>Nos offres du moment</h4>
+            <div id="carouseloffreControls" class=" carousel carousel-dark slide " data-bs-ride="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" >
+                    <div class="cards-wrapper">
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="img/offres/puressentiel.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text">Puressentiel Respiratoire Gommes Adoucissantes 45 g</p>
+                            </div>
+                            <div class="card-footer">
+                            <p class="card-text"> <Span id="old_price">4,92€</Span> 3,94€ </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="img/offres/vitamine_c_magnésium.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text">Nutrisanté Vitamine C + Magnésium x 24</p>
+                            </div>
+                            <div class="card-footer">
+                            <p class="card-text"> <Span id="old_price">3,43€</Span> 2,29€ </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="img/offres/mustela.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text">Mustela Lingettes Nettoyantes à l'Avocat Bio x 60</p>
+                            </div>
+                            <div class="card-footer">
+                            <p class="card-text"> <Span id="old_price">3,40€</Span> 2,8€ </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="img/offres/pads_bio.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text">Gilbert Rectangles de Coton Pads Bio 8 x 10 cm x 180</p>
+                            </div>
+                            <div class="card-footer">
+                            <p class="card-text"> <Span id="old_price">4,10€</Span> 3,9€ </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="img/offres/oropolis.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text">Oropolis Spray Gorge 20 ml</p>
+                            </div>
+                            <div class="card-footer">
+                            <p class="card-text"> <Span id="old_price">6,98€</Span> 6,48€ </p>
+                            </div>
+                        </div>
+                    </div> 
+                  </div>
+                  <div class="carousel-item">
+                    <div class="cards-wrapper">
+                        <div class="card" >
+                            <div class="image-wrapper">
+                                <img src="img/offres/durex.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text">Durex Nude Préservatif Sans Latex x 20</p>
+                            </div>
+                            <div class="card-footer">
+                            <p class="card-text"> <Span id="old_price">14,69€</Span> 11,75€ </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="img/offres/dexeryl.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text">Dexeryl Essentiel Lait Riche 500 ml</p>
+                            </div>
+                            <div class="card-footer">
+                            <p class="card-text"> <Span id="old_price">11,99€</Span> 9,99€ </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="img/offres/isoxan.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text">Isoxan ActiFLASH Booster x 28</p>
+                            </div>
+                            <div class="card-footer">
+                            <p class="card-text"> <Span id="old_price">7,68€</Span> 6,18€ </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="img/offres/aboca.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text">Aboca NeoFitoroid BioPommade 40 ml</p>
+                            </div>
+                            <div class="card-footer">
+                            <p class="card-text"> <Span id="old_price">12,80€</Span> 11,52€ </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="img/offres/bioderma.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <p class="card-text">Bioderma Créaline DS+ Gel Nettoyant Apaisant 200 ml</p>
+                            </div>
+                            <div class="card-footer">
+                            <p class="card-text"> <Span id="old_price">11,94€</Span> 9,55€ </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouseloffreControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouseloffreControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Nos produits conseils du mois</h4>
+                </div>
+                <div class="col-md-6">
+                    <p>Commandez <span style="font-weight: bold; color:#00498f">avant 13h</span> pour une <span style="font-weight: bold; color:#00498f">expédition aujourd'hui</span> (hors-weekend).</p>
+                </div>
+            </div>
+            <div id="carouselconseilControls" class=" carousel carousel-dark slide " data-bs-ride="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" >
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="img/offres/nicorette.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Nicorette 2 mg...<br> <span id="modele_conseil">Existe en plusieurs modèles</span></p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="card-text"> <Span>à partir de</Span> 5,89€ </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="img/offres/nicopass.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Nicopass 1,5 mg...<br> <span id="modele_conseil">Existe en plusieurs modèles</span></p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="card-text"> <Span>à partir de</Span> 7,22€ </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="img/offres/imodium.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Imodiumlingual...<br> <span id="modele_conseil">Comprimés à fa...</span></p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="card-text">  5,59€ </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="img/offres/lysopaine.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Lysopaïne Men...<br> <span id="modele_conseil">Comprimés à su...</span></p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="card-text"> 4,49€ </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="img/offres/homeomunyl.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Boiron Homéomun...<br> <span id="modele_conseil">Granules x 4</span></p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="card-text"> 6,48€ </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="img/offres/pediakid.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Pediakid Nez -...<br> <span id="modele_conseil">Sirop 250 ml</span></p>
+                                </div>
+                                <div class="card-footer" id="commande">
+                                    <p class="card-text"> <Span>En commande!</Span> 14,90€ </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselconseilControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselconseilControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
+        </div>
+        <div class="container">
+            <h4>Nos coups de coeur</h4>
+            <div id="carouselconseilControls" class=" carousel carousel-dark slide " data-bs-ride="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" >
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="img/offres/alvadiem.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Alvadiem Apivit...<br> <span id="modele_conseil">Baume 50ml</span></p>
+                                </div>
+                                <div class="card-footer" id="commande">
+                                    <p class="card-text"> 8,51€ </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="img/offres/magnesium.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">NHCO Magnésium...<br> <span id="modele_conseil">Gélules x 84</span></p>
+                                </div>
+                                <div class="card-footer" id="commande">
+                                    <p class="card-text"> 18,10€ </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="img/offres/grintuss.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Aboca GrinTuss...<br> <span id="modele_conseil">Existe en plusieurs modèles</span></p>
+                                </div>
+                                <div class="card-footer" id="commande">
+                                    <p class="card-text"> <span>à partir de </span> 8,90€ </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="img/offres/alvadiem.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Pediakid Immuno...<br> <span id="modele_conseil">Existe en plusieurs modèles</span></p>
+                                </div>
+                                <div class="card-footer" id="commande">
+                                    <p class="card-text"> <span>à partir de</span> 7,99€ </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="img/offres/pediakid.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Pediakid Nez -...<br> <span id="modele_conseil">Sirop 250 ml</span></p>
+                                </div>
+                                <div class="card-footer" id="commande">
+                                    <p class="card-text"> <Span>En commande!</Span> 14,90€ </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </section>
+
+      <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card text-bg-dark">
+                        <img src="img/pharmacist/Pharmacist.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Conseils</h5>
+                          <ul>
+                            <li><a href="#">Quand faut-il couper les ongles de son bébé</a></li>
+                            <li><a href="#">Cystite interstitielle</a></li>
+                            <li><a href="#">Grippe(médicaments)</a></li>
+                            <li><a href="#">Ongles incarnés</a></li>
+                          </ul>
+                          <button type="button" class="btn btn-warning">Warning</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+       
+       
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

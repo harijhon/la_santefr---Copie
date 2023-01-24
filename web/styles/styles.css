@@ -1,0 +1,187 @@
+.srch_bar{
+    margin-right: 150px !important;
+}
+
+.panier{
+    width: 250px !important;
+    height: 47px !important;
+    margin-left: 30px !important;
+    margin-right: O !important;
+}
+
+#shop_cart{
+    margin-right: 5px !important;
+}
+#srch_button{
+    width: 15px !important;
+    height: 15px !important;
+    margin: 5px !important;
+}
+
+
+
+.third_navbar{
+    justify-content: center !important;
+}
+
+.promo{
+    color: red !important;
+    font-weight: bold !important;
+}
+.promo:hover{
+    background-color: red !important;
+    color: white !important;
+}
+
+.img-fluid{
+    width: 150px !important;
+    height: 150px !important;
+    align-content: center;
+}
+.nav-link{
+    text-align:  center !important;
+    
+}
+.nav-link:hover{
+    background-color: #00498f !important;
+    color:white !important;
+}
+
+.livraison{
+    height: 40px !important;
+}
+
+#delivery{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.row img{
+    margin-top: 40px !important;
+    margin-right: 40px !important;
+    scale: 80% !important;
+}
+
+h4{
+    font-weight: bold !important;
+}
+
+.cards-deck{
+    display: flex !important;
+}
+.cards-wrapper{
+    display: flex !important;
+    justify-content: center;
+}
+
+.card-subtitle{
+    padding: 15px;
+    background-color: #F3F3F3;
+}
+
+.card-footer{
+    background-color: #ed145b;
+}
+
+.res_medoc .card-footer{
+    background-color: #00B583;
+}
+
+.res_medoc .card-body{
+    background-color: #F3F3F3;
+}
+
+.card-footer p{
+    color: white;
+    text-align: right;
+    
+}
+#old_price{
+    text-decoration: line-through;
+    text-align: left;
+}
+
+.card-body{
+    background-color: #fbd0de ;
+}
+
+.card{
+    margin: 0 .5em;
+    border: none;
+    width: 175px;
+}
+
+.image-wrapper{
+    height:17vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#carouseloffreControls{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#carouselconseilControls .card-body{
+    background-color: #F3F3F3;
+}
+
+#carouselconseilControls .card-footer{
+    background-color: #00B583;
+}
+
+#modele_conseil{
+    font-weight: bold;
+}.card-footer #commande{
+    background-color: #84898F !important;
+}
+
+#carouselconseilControls{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.rech{
+    width: 40px;
+    height: 40px;
+}
+
+.search_result{
+    background-color: #84898F;
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+    
+}
+
+#filter_search{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: justify;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#filter_search .aff_2{
+    margin-left: 30px;
+}
+
+.medoc_content{
+    margin-top: 25px;
+}
+
+.pagination{
+    margin-top: 30px !important;
+    list-style-type: none !important;
+    border: none !important;
+}
+
+
